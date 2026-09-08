@@ -3,30 +3,30 @@ import SectionHeader from '../components/SectionHeader.jsx'
 import { MapPin, Calendar } from 'lucide-react'
 
 const galleryItems = [
-  { title: 'Cérémonie de certification 2026', location: 'Washington, DC', date: 'Juin 2026', category: 'Événements', image: '/images/graduation-ceremony.png' },
-  { title: 'Atelier Google Workspace', location: 'Chicago, IL', date: 'Mars 2026', category: 'Formations', image: '/images/workshop-conference.png' },
-  { title: 'Conférence annuelle SLL 2025', location: 'Washington, DC', date: 'Novembre 2025', category: 'Conférences', image: '/images/leadership-meeting.png' },
-  { title: 'Session de mentorat en ligne', location: 'En ligne', date: 'Janvier 2026', category: 'Vie communautaire', image: '/images/classroom-tech.png' },
-  { title: 'Visite de district scolaire', location: 'Austin, TX', date: 'Avril 2026', category: 'Partenariats', image: '/images/campus-modern.png' },
-  { title: 'Hackathon Innovation Éducative', location: 'San Francisco, CA', date: 'Février 2026', category: 'STEM & Innovation', image: '/images/classroom-lab.png' },
+  { title: 'Cérémonie de remise des diplômes 2026', location: 'Fresno, CA', date: 'Juin 2026', category: 'Événements', image: '/images/graduation-ceremony.png' },
+  { title: 'Atelier Google Workspace for Education', location: 'Fresno, CA', date: 'Mars 2026', category: 'Formations', image: '/images/workshop-conference.png' },
+  { title: 'Symposium annuel des lycées 2025', location: 'Fresno, CA', date: 'Novembre 2025', category: 'Conférences', image: '/images/leadership-meeting.png' },
+  { title: 'Session de tutorat et mentorat en ligne', location: 'En ligne', date: 'Janvier 2026', category: 'Vie scolaire', image: '/images/classroom-tech.png' },
+  { title: 'Visite guidée du campus universitaire', location: 'Fresno, CA', date: 'Avril 2026', category: 'Partenariats', image: '/images/campus-modern.png' },
+  { title: 'Hackathon Innovation STEM & Robotics', location: 'Fresno, CA', date: 'Février 2026', category: 'STEM & Innovation', image: '/images/classroom-lab.png' },
 ]
 
 function Gallery() {
   return (
     <>
       <Helmet>
-        <title>Galerie — School Leader Lab</title>
-        <meta name="description" content="Galerie photos et événements de School Leader Lab. Cérémonies de certification, ateliers, conférences. EIN 82-1581985." />
+        <title>Galerie — University High School</title>
+        <meta name="description" content="Galerie photos et événements de University High School à Fresno, CA. Cérémonies de remise des diplômes, ateliers STEM, vie de campus. EIN 77-0515663." />
       </Helmet>
       <div className="bg-primary-900 text-white py-16">
         <div className="container-main px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Galerie</h1>
-          <p className="text-primary-100 text-lg max-w-2xl mx-auto">Retour en images sur la vie de School Leader Lab et les moments forts de notre communauté.</p>
+          <p className="text-primary-100 text-lg max-w-2xl mx-auto">Retour en images sur la vie de University High School et les moments forts de notre communauté scolaire.</p>
         </div>
       </div>
       <section className="section-padding bg-white">
         <div className="container-main">
-          <SectionHeader title="Vie de l\'institution" subtitle="Événements, formations, cérémonies et moments de partage au sein de la communauté School Leader Lab." />
+          <SectionHeader title="Vie de l'établissement" subtitle="Événements, projets scientifiques, cérémonies et moments de partage au sein de la communauté University High School." />
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {galleryItems.map((item, i) => (
               <div key={i} className="group bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition-shadow">
