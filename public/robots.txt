@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://schoolleaderlab.sbs/sitemap.xml
+Sitemap: https://universityhighschool.sbs/sitemap.xml
