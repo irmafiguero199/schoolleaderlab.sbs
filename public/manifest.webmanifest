@@ -1,7 +1,7 @@
 {
-  "name": "School Leader Lab",
-  "short_name": "SLL",
-  "description": "Institution américaine accréditée pour le développement professionnel des leaders éducatifs. EIN 82-1581985.",
+  "name": "University High School",
+  "short_name": "UHS",
+  "description": "Établissement d'enseignement secondaire à but non lucratif 501(c)(3) à Fresno, CA. EIN 77-0515663.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
