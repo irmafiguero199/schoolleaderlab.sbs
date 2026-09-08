@@ -15,8 +15,8 @@ function Newsletter() {
       <div className="container-main px-4 py-16">
         <div className="max-w-2xl mx-auto text-center">
           <Mail className="w-10 h-10 text-primary-600 mx-auto mb-4" />
-          <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">Restez informé de nos programmes</h2>
-          <p className="text-slate-600 mb-8">Recevez nos actualités, nouvelles sessions de formation et ressources pour leaders éducatifs.</p>
+          <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-3">Restez informé de nos actualités</h2>
+          <p className="text-slate-600 mb-8">Recevez nos dernières informations, calendriers académiques et ressources éducatives.</p>
           {submitted ? (
             <div className="flex items-center justify-center gap-2 text-green-600 font-medium">
               <CheckCircle className="w-5 h-5" />Merci ! Vous recevrez nos prochaines actualités à cette adresse.
@@ -29,7 +29,7 @@ function Newsletter() {
             </form>
           )}
           <p className="text-xs text-slate-400 mt-4">
-            School Leader Lab — EIN 82-1581985 — PO Box 53232, Washington, DC 20009. Conforme au RGPD. Désinscription possible à tout moment via <a href="mailto:admin@schoolleaderlab.sbs" className="underline">admin@schoolleaderlab.sbs</a>.
+            University High School — EIN 77-0515663 — 2611 E Matoian Way Ms Uh 134, Fresno, CA 93740-0001. Conforme au RGPD. Désinscription possible à tout moment via <a href="mailto:admin@universityhighschool.sbs" className="underline">admin@universityhighschool.sbs</a>.
           </p>
         </div>
       </div>
